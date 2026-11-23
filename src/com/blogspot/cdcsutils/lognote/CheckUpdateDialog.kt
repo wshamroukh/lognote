@@ -20,11 +20,11 @@ class CheckUpdateDialog(parent: JFrame) :JDialog(parent, Strings.CHECK_UPDATE, t
     private var mUpdateLabel: JLabel
     private var mGoUpdateBtn: JButton
     private var mCloseBtn : JButton
-    private val RELEASE_ADDRESS = "https://github.com/cdcsgit/lognote/releases/latest"
+    private val RELEASE_ADDRESS = "https://github.com/wshamroukh/lognote/releases/latest"
     private var mLatestVersion = ""
 
     init {
-        val url = URL("https://api.github.com/repos/cdcsgit/lognote/releases/latest")
+        val url = URL("https://api.github.com/repos/wshamroukh/lognote/releases/latest")
         val input = url.openStream()
         val inputStreamReader = InputStreamReader(input)
         val bufferedReader = BufferedReader(inputStreamReader)
