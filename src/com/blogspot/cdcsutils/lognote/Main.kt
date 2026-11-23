@@ -7,7 +7,7 @@ import javax.swing.SwingUtilities
 
 class Main {
     companion object {
-        const val VERSION: String = "1.3-ws2"
+        const val VERSION: String = "1.3-ws3"
         const val NAME: String = "LogNote"
 
         // Diagnostic (off by default, enable with -Dlognote.lagdetect=true):
