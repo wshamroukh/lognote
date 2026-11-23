@@ -8,3 +8,4 @@ build/
 LogNote_*.txt
 LogNote_*.txt.pnames
 lognote*.json
+release/
